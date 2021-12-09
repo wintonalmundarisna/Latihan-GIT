@@ -1,0 +1,30 @@
+Cara Commit GIT
+
+0.1 git config --global user.name "Nama"
+0.2 git config --global user.email <Email>
+
+Itu buat inisialisasi author (nama dan email)
+0.3 Cara cek hasil di atas dengan git status, nanti ada 
+
+1. git init (Buat inisialisasi file agar jadi master)
+2. git add <Nama file> / git add . (Kalo banyak)
+3. git status (Buat liat status file mana yg dah di add)
+4. git commit -m "Pesan" 
+5. git log / git log --oneline (Supaya ringkas)
+
+file yang di init akan masuk work three
+file yang di add akan masuk staging area 
+file yang di commit akan tersimpan di history git
+
+Cara push
+
+ketik : git remote add baru https://github.com/wintonalmundarisna/Latihan-GIT.git
+baru adalah nama remotenya, http diambil dari link new repo nya
+
+Jalankan git remote -v untuk cek remote
+
+ketik : git push baru master (Master adalah nama branchnya)
+Nanti sign in aja pake browser
+
+Kalo mau mengembalikan file dari taging area ke working three
+Ketik : git restore --staged <Nama file>
