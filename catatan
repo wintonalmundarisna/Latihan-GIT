@@ -39,8 +39,18 @@ Cara menambahkan file langsung dari git, ketik add file, lalu masukkan nama file
 
 Cara git pull (Mengunduh kode yang ada di repo github ke com kita)
 ketik : git pull <nama remote / si baru tadi> master (Nama branch)
+Cara cek nama remote ada di git log --oneline (Nanti ada tulisan baru/master)
 
 
 Kalo pas pull ada konflict, buka file yg bersangkutan, yang hijau dari komputer, yang biru dari github 
 
 Cara pilihnya, hapus salah satu
+
+
+Cara meilhat dan bisa balik lagi ke file lama yaitu ketik git checkout <kode git log --oneline>
+
+Cara balik laginya ketik git checkout master
+
+
+Cara membatalkan commit, ketik git revert <kode log>
+Nanti bakal terhapus yang commitan dibatalkan tadi
