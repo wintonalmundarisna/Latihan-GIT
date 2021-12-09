@@ -39,3 +39,8 @@ Cara menambahkan file langsung dari git, ketik add file, lalu masukkan nama file
 
 Cara git pull (Mengunduh kode yang ada di repo github ke com kita)
 ketik : git pull <nama remote / si baru tadi> master (Nama branch)
+
+
+Kalo pas pull ada konflict, buka file yg bersangkutan, yang hijau dari komputer, yang biru dari github 
+
+Cara pilihnya, hapus salah satu
