@@ -28,3 +28,14 @@ Nanti sign in aja pake browser
 
 Kalo mau mengembalikan file dari taging area ke working three
 Ketik : git restore --staged <Nama file>
+Lalu commit dan push spt cara di atas
+
+Cara menambahkan versi ketika di cek di git log --oneline
+Ketik git log --oneline, ambil kode sebelah kiri file, lalu ketik git tag -a <Mau v berapa, custom> <versi tadi> -m "Pesan"
+
+
+Cara menambahkan file langsung dari git, ketik add file, lalu masukkan nama file beserta eksistensinya dan isi kodenya, lalu masukkan nama commit di paling bawah dan commit, file tsb belum ada di vscode kita
+
+
+Cara git pull (Mengunduh kode yang ada di repo github ke com kita)
+ketik : git pull <nama remote / si baru tadi> master (Nama branch)
